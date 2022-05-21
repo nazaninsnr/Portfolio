@@ -211,3 +211,16 @@ p {
 }
 
 /* About Page End */
+
+/* Project Page Start */
+
+.project-head-title {
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  font-family: var(--default-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 100px 0;
+}
+
+/* Project Page End */
