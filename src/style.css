@@ -109,3 +109,60 @@ p {
 }
 
 /*Hero End*/
+
+/* Project Start*/
+
+.project-hero {
+  background-color: var(--secondary-color);
+  color: var(--accent-color);
+}
+
+.project-hero-title {
+  font-family: var(--default-font-family);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.project-img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  max-width: 80%;
+}
+
+.description {
+  padding: 100px 60px 120px 0px;
+}
+
+.description h2 {
+  font-size: 45px;
+}
+
+.project-img-mobile {
+  background-color: var(--secondary-color);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 20px auto;
+}
+
+.project-description {
+  color: #49494a;
+  font-family: var(--default-font-family);
+  font-size: 15px;
+}
+
+.secondary-button {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  font-family: var(--default-font-family);
+  font-weight: light;
+  margin-top: 20px;
+  padding: 15px 25px;
+}
+
+.secondary-button:hover {
+  background-color: black;
+  border: 1px solid black;
+  color: var(--accent-color);
+}
+
+/* Project End*/
