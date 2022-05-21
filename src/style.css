@@ -224,3 +224,24 @@ p {
 }
 
 /* Project Page End */
+
+/* Contact Start */
+
+.contact {
+  margin-bottom: 160px;
+}
+
+.contact h1 {
+  font-size: 36px;
+  margin: 150px 0 60px;
+}
+
+.contact h2 {
+  font-size: 18px;
+}
+
+.contact p {
+  color: #212529;
+}
+
+/* Contact End */
