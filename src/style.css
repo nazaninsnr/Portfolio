@@ -187,3 +187,27 @@ p {
 }
 
 /* Footer End*/
+
+/* About Page Start */
+
+.about {
+  padding: 120px 0 40px;
+}
+
+.about h1 {
+  color: var(--accent-color);
+  font-size: 50px;
+}
+
+.about p {
+  background: rgba(248, 249, 250, 0.6);
+  border-radius: 4px;
+  color: black;
+  font-family: var(--default-font-family);
+  font-size: 15px;
+  margin: 0 auto;
+  text-align: justify;
+  width: 350px;
+}
+
+/* About Page End */
