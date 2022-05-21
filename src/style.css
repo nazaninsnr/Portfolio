@@ -1,0 +1,88 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #f8f9fa;
+  --accent-color: #ce5656;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  color: var(--accent-color);
+  font-size: 90px;
+}
+
+p {
+  color: white;
+  font-family: var(--default-font-family);
+  font-size: 15px;
+}
+
+/*Hero Start*/
+
+.hero {
+  background: var(--primary-color);
+  padding: 200px 0;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.typing-demo {
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  border-right: 2px solid white;
+  color: white;
+  font-family: var(--default-font-family);
+  font-size: 20px;
+  line-height: 2;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 16ch;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.hero-button {
+  border: 1px solid white;
+  border-radius: 8px;
+  color: white;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: light;
+  margin: 20px;
+  padding: 15px 25px;
+}
+
+.hero-button:hover {
+  border: 1px solid #ce5656;
+  background-color: var(--accent-color);
+  color: white;
+  transition: all 150ms ease-in-out;
+}
+
+/*Hero End*/
