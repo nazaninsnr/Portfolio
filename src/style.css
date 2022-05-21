@@ -30,6 +30,29 @@ p {
   font-size: 15px;
 }
 
+/* Navbar Start*/
+
+.navbar-dark {
+  background-color: var(--primary-color) !important;
+}
+
+.logo {
+  width: 50px;
+}
+
+#navbarNav a {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  margin: 5px;
+}
+
+.navbar-toggler span i {
+  color: var(--accent-color);
+  font-size: 28px;
+}
+
+/* Navbar End*/
+
 /*Hero Start*/
 
 .hero {
