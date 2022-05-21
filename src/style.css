@@ -166,3 +166,24 @@ p {
 }
 
 /* Project End*/
+
+/* Footer Start*/
+
+.footer {
+  background: var(--secondary-color);
+}
+
+.footer a {
+  color: #212529;
+  transition: all 200ms ease-in-out;
+}
+
+.footer a:hover {
+  color: var(--accent-color);
+}
+
+.footer i {
+  font-size: 25px;
+}
+
+/* Footer End*/
