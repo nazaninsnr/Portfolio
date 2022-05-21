@@ -245,3 +245,179 @@ p {
 }
 
 /* Contact End */
+
+/* Media Queries */
+
+@media (max-width: 575.98px) {
+  .logo {
+    width: 45px !important;
+  }
+  #navbarNav a {
+    font-size: 16px !important;
+  }
+  .navbar-toggler span i {
+    font-size: 24px !important;
+  }
+  .hero {
+    padding: 160px 0 90px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .typing-demo {
+    font-size: 16px !important;
+    margin-bottom: 25px !important;
+  }
+  .hero-button {
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+  }
+  .project-hero {
+    padding: 25px 0 !important;
+  }
+  .project-hero-title {
+    font-size: 30px !important;
+  }
+  .description {
+    text-align: center;
+  }
+  .description h2 {
+    font-size: 26px !important;
+    text-align: center !important;
+  }
+  .description p {
+    font-size: 16px !important;
+  }
+  .footer i {
+    font-size: 28px !important;
+  }
+
+  /* About Page */
+  .about {
+    margin-bottom: 10px;
+  }
+  .about h1 {
+    font-size: 34px !important;
+    margin: 0 0 40px !important;
+  }
+  .about p {
+    font-size: 20px !important;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 300px !important;
+  }
+  .secondary-button {
+    font-size: 16px !important;
+  }
+  #about-button {
+    display: inline;
+    font-size: 16px !important;
+    padding: 15px 25px !important;
+  }
+
+  /* Project Page */
+  .project-head-title {
+    font-size: 32px;
+    padding: 25px 0 !important;
+  }
+
+  /* Contact Page */
+  .contact {
+    margin-bottom: 165px;
+  }
+  .contact h1 {
+    font-size: 42px;
+  }
+  .contact h2 {
+    font-size: 24px;
+  }
+  .contact p {
+    font-size: 20px;
+  }
+  .contact i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .logo {
+    width: 80px;
+  }
+  #navbarNav a {
+    font-size: 24px;
+  }
+  .navbar-toggler span i {
+    font-size: 40px;
+  }
+  .typing-demo {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .hero-button {
+    display: inline;
+    font-size: 24px;
+  }
+  .project-hero-title {
+    font-size: 38px;
+  }
+  .description {
+    padding: 10px 10px 20px;
+  }
+  .description h2 {
+    font-size: 32px;
+  }
+  .description p {
+    font-size: 20px;
+  }
+  .secondary-button {
+    display: block;
+    font-size: 18px;
+  }
+  .footer i {
+    font-size: 36px;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* About Page */
+  .about {
+    margin-bottom: 10px;
+  }
+  .about h1 {
+    font-size: 52px;
+    margin: 50px 0 30px;
+  }
+  .about p {
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 600px;
+  }
+  .secondary-button {
+    font-size: 14px !important;
+  }
+  .about a {
+    display: inline;
+    font-size: 32px !important;
+    padding: 20px 40px;
+  }
+
+  /* Contact Page */
+  .contact {
+    margin-bottom: 165px;
+  }
+  .contact h1 {
+    font-size: 42px;
+  }
+  .contact h2 {
+    font-size: 24px;
+  }
+  .contact p {
+    font-size: 20px;
+  }
+  .contact i {
+    font-size: 20px;
+  }
+}
